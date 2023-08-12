@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="feba0ef5-f148-4643-ac5e-31879ecdbf40" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/MavenGit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro02-module-java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro02-module-java/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro02-module-java/src/main/java/com/atguigu/maven/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro02-module-java/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/main/java/com/atguigu/maven/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/main/java/com/atguigu/maven/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/src/main/java/com/atguigu/maven/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/EmpDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/MemorialsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/EmpDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/MemorialsDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/pojo/Emp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/pojo/Memorials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/maven/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.8.8" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TsKYwa8OX3Ztz7WfQM0UAmNEXy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/tomcat",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.14746094",
+    "project.structure.side.proportion": "0.2045977",
+    "settings.build.tools.auto.reload": "ALL",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.AppTest.test2">
+    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro04-demo-all-in-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.AppTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro04-demo-all-in-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.AppTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro04-demo-all-in-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.AppTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro04-demo-all-in-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.AppTest" />
+      <option name="METHOD_NAME" value="testGetConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppTest.test2" />
+        <item itemvalue="JUnit.AppTest.test1" />
+        <item itemvalue="JUnit.AppTest.test" />
+        <item itemvalue="JUnit.AppTest.testGetConnection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="feba0ef5-f148-4643-ac5e-31879ecdbf40" name="Changes" comment="" />
+      <created>1691826401796</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691826401796</updated>
+      <workItem from="1691826402778" duration="645000" />
+      <workItem from="1691839237228" duration="8328000" />
+    </task>
+    <task id="LOCAL-00001" summary="出入Maven">
+      <option name="closed" value="true" />
+      <created>1691856309517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691856309517</updated>
+    </task>
+    <task id="LOCAL-00002" summary="demo(搭建环境v1.0)">
+      <option name="closed" value="true" />
+      <created>1691856375237</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691856375237</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初入Maven">
+      <option name="closed" value="true" />
+      <created>1691856397998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691856397998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="出入Maven" />
+    <MESSAGE value="demo(搭建环境v1.0)" />
+    <MESSAGE value="初入Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="初入Maven" />
+  </component>
+</project>
