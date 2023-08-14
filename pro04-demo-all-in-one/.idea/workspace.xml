@@ -5,45 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="feba0ef5-f148-4643-ac5e-31879ecdbf40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/MavenGit.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro02-module-java/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro02-module-java/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro02-module-java/src/main/java/com/atguigu/maven/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro02-module-java/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/main/java/com/atguigu/maven/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/main/java/com/atguigu/maven/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/pro03-module-web/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/src/main/java/com/atguigu/maven/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pro01-maven-idea-parent/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/EmpDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/MemorialsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/EmpDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/MemorialsDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/pojo/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/pojo/Memorials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/maven/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/pro04_demo_all_in_one_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/filter/TransactionFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ModelBaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ViewBaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/ImperialCourtConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -76,23 +51,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/tomcat",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.14746094",
-    "project.structure.side.proportion": "0.2045977",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "build.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Tool/web-app_2_3.dtd&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.14746094&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2045977&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MavenGit\pro04-demo-all-in-one\src\main" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.AppTest.test2">
     <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pro04-demo-all-in-one" />
@@ -176,7 +159,9 @@
       <option name="presentableId" value="Default" />
       <updated>1691826401796</updated>
       <workItem from="1691826402778" duration="645000" />
-      <workItem from="1691839237228" duration="8328000" />
+      <workItem from="1691839237228" duration="8382000" />
+      <workItem from="1691892279535" duration="5269000" />
+      <workItem from="1691994697907" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="出入Maven">
       <option name="closed" value="true" />
@@ -202,27 +187,65 @@
       <option name="project" value="LOCAL" />
       <updated>1691856397998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="初入Maven">
+      <option name="closed" value="true" />
+      <created>1691856623298</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691856623298</updated>
+    </task>
+    <task id="LOCAL-00005" summary="demo(搭建环境v1.0)">
+      <option name="closed" value="true" />
+      <created>1691856641704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691856641704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="出入Maven" />
-    <MESSAGE value="demo(搭建环境v1.0)" />
     <MESSAGE value="初入Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="初入Maven" />
+    <MESSAGE value="demo(搭建环境v1.0)" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo(搭建环境v1.0)" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="pro04-demo-all-in-one:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/pro04_demo_all_in_one_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="pro04-demo-all-in-one/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="pro04-demo-all-in-one" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
