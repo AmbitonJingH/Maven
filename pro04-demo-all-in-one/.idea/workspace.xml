@@ -1,84 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="pro04-demo-all-in-one:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feba0ef5-f148-4643-ac5e-31879ecdbf40" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/pro04_demo_all_in_one_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/filter/TransactionFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ModelBaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ViewBaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/ImperialCourtConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="f4690c43-6ebf-40fd-ab63-dae6e75bbd0e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/exception/LoginFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/api/EmpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/api/MemorialsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/impl/EmpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/impl/MemorialsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/module/AuthServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/module/PortalServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/module/WorkServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/memorials_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/temp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/maven/ImperialCourtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro05-demo-all-in-one/pro05-demo-all-in-one.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pro04_demo_all_in_one_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/pro04_demo_all_in_one_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/EmpDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/EmpDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/MemorialsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/MemorialsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/EmpDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/EmpDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/MemorialsDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/MemorialsDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/filter/TransactionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/filter/TransactionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/pojo/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/entity/Emp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/pojo/Memorials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/entity/Memorials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ModelBaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ModelBaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ViewBaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ViewBaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/ImperialCourtConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/ImperialCourtConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/memorials-List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/maven/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LinuxMySQL" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LinuxMySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LinuxMySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_imperial_court: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LinuxMySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_imperial_court: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_emp: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LinuxMySQL" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_imperial_court: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_memorials: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.8.8" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.8.8\conf\settings.xml" />
+        <option name="localRepository" value="D:\maven-repo" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../software/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.8.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2TsKYwa8OX3Ztz7WfQM0UAmNEXy" />
+  <component name="ProjectId" id="25GtJgOgvmj4TuqeVOpBdVAKOsE" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Tool/web-app_2_3.dtd&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/tomcat&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.14746094&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15234375&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2045977&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MavenGit\pro04-demo-all-in-one\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MavenGit\pro04-demo-all-in-one" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.test2">
-    <configuration name="AppTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro04-demo-all-in-one" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean package -Dmaven.test.skip=true" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat8">
+    <configuration name="ImperialCourtTest.testGetBeanList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro05-demo-all-in-one" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.maven.*" />
@@ -86,15 +171,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.maven" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.AppTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.ImperialCourtTest" />
+      <option name="METHOD_NAME" value="testGetBeanList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro04-demo-all-in-one" />
+    <configuration name="ImperialCourtTest.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro05-demo-all-in-one" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atguigu.maven.*" />
@@ -102,150 +187,211 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.atguigu.maven" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.AppTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro04-demo-all-in-one" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.maven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.AppTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pro04-demo-all-in-one" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.maven.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.ImperialCourtTest" />
       <option name="METHOD_NAME" value="testGetConnection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ImperialCourtTest.testGetSingleBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro05-demo-all-in-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.ImperialCourtTest" />
+      <option name="METHOD_NAME" value="testGetSingleBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImperialCourtTest.testSubString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro05-demo-all-in-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.ImperialCourtTest" />
+      <option name="METHOD_NAME" value="testSubString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImperialCourtTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pro05-demo-all-in-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.maven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.maven" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.maven.ImperialCourtTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="pro04-demo-all-in-one:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/demo" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_pro05-demo-all-in-one" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54341" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="pro04-demo-all-in-one:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ImperialCourtTest.testGetBeanList" />
+      <item itemvalue="JUnit.ImperialCourtTest.testGetConnection" />
+      <item itemvalue="JUnit.ImperialCourtTest.testGetSingleBean" />
+      <item itemvalue="JUnit.ImperialCourtTest.testSubString" />
+      <item itemvalue="JUnit.ImperialCourtTest.testUpdate" />
+      <item itemvalue="Tomcat Server.Tomcat8" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.test2" />
-        <item itemvalue="JUnit.AppTest.test1" />
-        <item itemvalue="JUnit.AppTest.test" />
-        <item itemvalue="JUnit.AppTest.testGetConnection" />
+        <item itemvalue="JUnit.ImperialCourtTest.testSubString" />
+        <item itemvalue="JUnit.ImperialCourtTest.testUpdate" />
+        <item itemvalue="JUnit.ImperialCourtTest.testGetBeanList" />
+        <item itemvalue="JUnit.ImperialCourtTest.testGetSingleBean" />
+        <item itemvalue="JUnit.ImperialCourtTest.testGetConnection" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.19629057" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="feba0ef5-f148-4643-ac5e-31879ecdbf40" name="Changes" comment="" />
-      <created>1691826401796</created>
+      <changelist id="f4690c43-6ebf-40fd-ab63-dae6e75bbd0e" name="Default Changelist" comment="" />
+      <created>1645165180473</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691826401796</updated>
-      <workItem from="1691826402778" duration="645000" />
-      <workItem from="1691839237228" duration="8382000" />
-      <workItem from="1691892279535" duration="5269000" />
-      <workItem from="1691994697907" duration="312000" />
+      <updated>1645165180473</updated>
+      <workItem from="1645165183424" duration="33297000" />
+      <workItem from="1645277594381" duration="997000" />
+      <workItem from="1645328669960" duration="942000" />
+      <workItem from="1691999556981" duration="155000" />
+      <workItem from="1692000078451" duration="2822000" />
+      <workItem from="1692004461285" duration="153000" />
+      <workItem from="1692004621557" duration="302000" />
+      <workItem from="1692025912278" duration="6206000" />
     </task>
-    <task id="LOCAL-00001" summary="出入Maven">
-      <option name="closed" value="true" />
-      <created>1691856309517</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1691856309517</updated>
-    </task>
-    <task id="LOCAL-00002" summary="demo(搭建环境v1.0)">
-      <option name="closed" value="true" />
-      <created>1691856375237</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1691856375237</updated>
-    </task>
-    <task id="LOCAL-00003" summary="初入Maven">
-      <option name="closed" value="true" />
-      <created>1691856397998</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1691856397998</updated>
-    </task>
-    <task id="LOCAL-00004" summary="初入Maven">
-      <option name="closed" value="true" />
-      <created>1691856623298</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1691856623298</updated>
-    </task>
-    <task id="LOCAL-00005" summary="demo(搭建环境v1.0)">
-      <option name="closed" value="true" />
-      <created>1691856641704</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1691856641704</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ID_ORDER">
-      <list>
-        <option value="Default.Root" />
-        <option value="Default.Author" />
-        <option value="Default.Date" />
-        <option value="Default.Subject" />
-        <option value="Space.CommitStatus" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="出入Maven" />
-    <MESSAGE value="初入Maven" />
-    <MESSAGE value="demo(搭建环境v1.0)" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo(搭建环境v1.0)" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

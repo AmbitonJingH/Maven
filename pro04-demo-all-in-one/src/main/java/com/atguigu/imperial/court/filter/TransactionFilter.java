@@ -1,9 +1,4 @@
 package com.atguigu.imperial.court.filter;
-/*
- * @author  AmbitionJingH
- * @date  2023/8/13 10:22
- * @version 1.0
- */
 
 import com.atguigu.imperial.court.util.JDBCUtils;
 
@@ -16,7 +11,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class TransactionFilter implements Filter {
+
+    // 声明集合保存静态资源扩展名
     private static Set<String> staticResourceExtNameSet;
+
     static {
         staticResourceExtNameSet = new HashSet<>();
         staticResourceExtNameSet.add(".png");
@@ -24,55 +22,73 @@ public class TransactionFilter implements Filter {
         staticResourceExtNameSet.add(".css");
         staticResourceExtNameSet.add(".js");
     }
-    @Override
-    public void init(FilterConfig filterConfig) throws ServletException {
-
-    }
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
-        //前置操作排除静态资源
-        HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
-        String servletPath = httpServletRequest.getServletPath();
-        String extName = servletPath.substring(servletPath.lastIndexOf("."));
-        if(staticResourceExtNameSet.contains(extName)){
-            //检测到如果为静态资源则直接放行，不做事务操作
-            filterChain.doFilter(servletRequest, servletResponse);
-            return;
+
+        // 前置操作：排除静态资源
+        HttpServletRequest request = (HttpServletRequest) servletRequest;
+        String servletPath = request.getServletPath();
+        if (servletPath.contains(".")) {
+            String extName = servletPath.substring(servletPath.lastIndexOf("."));
+
+            if (staticResourceExtNameSet.contains(extName)) {
+
+                // 如果检测到当前请求确实是静态资源，则直接放行，不做事务操作
+                filterChain.doFilter(servletRequest, servletResponse);
+
+                // 当前方法立即返回
+                return ;
+            }
+
         }
 
-
         Connection connection = null;
-        try {
-            //1.获取数据库连接
+
+        try{
+
+            // 1、获取数据库连接
             connection = JDBCUtils.getConnection();
+
+            // 重要操作：关闭自动提交功能
             connection.setAutoCommit(false);
-            //2.核心操作
+
+            // 2、核心操作
             filterChain.doFilter(servletRequest, servletResponse);
-            //3.提交事务
+
+            // 3、提交事务
             connection.commit();
-        } catch (Exception e) {
+
+        }catch (Exception e) {
+
             try {
-                //4.事务回滚
+                // 4、回滚事务
                 connection.rollback();
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
-            //页面显示：将捕获到的异常发送到指定页面
-            //获取异常信息
+
+            // 页面显示：将这里捕获到的异常发送到指定页面显示
+            // 获取异常信息
             String message = e.getMessage();
-            servletRequest.setAttribute("systemMessage",message);
-            servletRequest.getRequestDispatcher("/").forward(servletRequest,servletResponse);
 
+            // 将异常信息存入请求域
+            request.setAttribute("systemMessage", message);
 
-        } finally {
-            //5.释放连接
+            // 将请求转发到指定页面
+            request.getRequestDispatcher("/").forward(request, servletResponse);
+
+        }finally {
+
+            // 5、释放数据库连接
             JDBCUtils.releaseConnection(connection);
+
         }
+
     }
 
     @Override
-    public void destroy() {
-
-    }
+    public void init(FilterConfig filterConfig) throws ServletException {}
+    @Override
+    public void destroy() {}
 }

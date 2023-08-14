@@ -1,9 +1,4 @@
 package com.atguigu.imperial.court.servlet.base;
-/*
- * @author  AmbitionJingH
- * @date  2023/8/13 13:59
- * @version 1.0
- */
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

@@ -1,11 +1,7 @@
-package com.atguigu.imperial.court.pojo;
-/*
- * @author  AmbitionJingH
- * @date  2023/8/12 20:00
- * @version 1.0
- */
+package com.atguigu.imperial.court.entity;
 
 public class Emp {
+
     private Integer empId;
     private String empName;
     private String empPosition;
@@ -13,15 +9,6 @@ public class Emp {
     private String loginPassword;
 
     public Emp() {
-
-    }
-
-    public Emp(Integer empId, String empName, String empPosition, String loginAccount, String loginPassword) {
-        this.empId = empId;
-        this.empName = empName;
-        this.empPosition = empPosition;
-        this.loginAccount = loginAccount;
-        this.loginPassword = loginPassword;
     }
 
     public Integer getEmpId() {
@@ -73,5 +60,13 @@ public class Emp {
                 ", loginAccount='" + loginAccount + '\'' +
                 ", loginPassword='" + loginPassword + '\'' +
                 '}';
+    }
+
+    public Emp(Integer empId, String empName, String empPosition, String loginAccount, String loginPassword) {
+        this.empId = empId;
+        this.empName = empName;
+        this.empPosition = empPosition;
+        this.loginAccount = loginAccount;
+        this.loginPassword = loginPassword;
     }
 }

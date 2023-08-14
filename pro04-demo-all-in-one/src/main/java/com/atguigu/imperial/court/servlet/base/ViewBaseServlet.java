@@ -1,9 +1,4 @@
 package com.atguigu.imperial.court.servlet.base;
-/*
- * @author  AmbitionJingH
- * @date  2023/8/13 12:05
- * @version 1.0
- */
 
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.WebContext;
@@ -16,9 +11,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-/*
-* 处理servlet模板文件的基类
-* */
+
+/**
+ * 处理视图模板文件的 Servlet 基类
+ */
 public class ViewBaseServlet extends HttpServlet {
 
     private TemplateEngine templateEngine;

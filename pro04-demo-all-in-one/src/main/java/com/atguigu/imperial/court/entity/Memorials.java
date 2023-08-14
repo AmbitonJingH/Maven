@@ -1,16 +1,12 @@
-package com.atguigu.imperial.court.pojo;
-/*
- * @author  AmbitionJingH
- * @date  2023/8/12 20:02
- * @version 1.0
- */
+package com.atguigu.imperial.court.entity;
 
 public class Memorials {
+
     private Integer memorialsId;
     private String memorialsTitle;
     private String memorialsContent;
 
-    // 奏折摘要数据库没有，这里是为了配和页面显示
+    // 奏折摘要数据库没有，这里是为了配合页面显示
     private String memorialsContentDigest;
     private Integer memorialsEmp;
 
@@ -20,22 +16,6 @@ public class Memorials {
     private String feedbackTime;
     private String feedbackContent;
     private Integer memorialsStatus;
-
-    public Memorials() {
-    }
-
-    public Memorials(Integer memorialsId, String memorialsTitle, String memorialsContent, String memorialsContentDigest, Integer memorialsEmp, String memorialsEmpName, String memorialsCreateTime, String feedbackTime, String feedbackContent, Integer memorialsStatus) {
-        this.memorialsId = memorialsId;
-        this.memorialsTitle = memorialsTitle;
-        this.memorialsContent = memorialsContent;
-        this.memorialsContentDigest = memorialsContentDigest;
-        this.memorialsEmp = memorialsEmp;
-        this.memorialsEmpName = memorialsEmpName;
-        this.memorialsCreateTime = memorialsCreateTime;
-        this.feedbackTime = feedbackTime;
-        this.feedbackContent = feedbackContent;
-        this.memorialsStatus = memorialsStatus;
-    }
 
     public Integer getMemorialsId() {
         return memorialsId;
@@ -131,5 +111,21 @@ public class Memorials {
                 ", feedbackContent='" + feedbackContent + '\'' +
                 ", memorialsStatus=" + memorialsStatus +
                 '}';
+    }
+
+    public Memorials(Integer memorialsId, String memorialsTitle, String memorialsContent, String memorialsContentDigest, Integer memorialsEmp, String memorialsEmpName, String memorialsCreateTime, String feedbackTime, String feedbackContent, Integer memorialsStatus) {
+        this.memorialsId = memorialsId;
+        this.memorialsTitle = memorialsTitle;
+        this.memorialsContent = memorialsContent;
+        this.memorialsContentDigest = memorialsContentDigest;
+        this.memorialsEmp = memorialsEmp;
+        this.memorialsEmpName = memorialsEmpName;
+        this.memorialsCreateTime = memorialsCreateTime;
+        this.feedbackTime = feedbackTime;
+        this.feedbackContent = feedbackContent;
+        this.memorialsStatus = memorialsStatus;
+    }
+
+    public Memorials() {
     }
 }

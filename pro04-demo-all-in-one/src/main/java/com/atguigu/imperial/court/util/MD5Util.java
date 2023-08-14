@@ -1,9 +1,4 @@
 package com.atguigu.imperial.court.util;
-/*
- * @author  AmbitionJingH
- * @date  2023/8/14 14:34
- * @version 1.0
- */
 
 import java.math.BigInteger;
 import java.security.MessageDigest;
@@ -50,5 +45,4 @@ public class MD5Util {
 
         return encoded;
     }
-
 }
