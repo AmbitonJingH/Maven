@@ -52,14 +52,14 @@
             <td th:text="${memorials.feedbackContent}"></td>
         </tr>
     </table>
-    <div th:if="${memorials.memorialsStatus != 2}">
+    <div style="margin: 0 auto 0 auto; width: 60%;" th:if="${memorials.memorialsStatus != 2}">
         <form th:action="@{/work}" method="post">
             <input type="hidden" name="method" value="feedBack">
             <input type="hidden" name="memorialsId" th:value="${memorials.memorialsId}">
-            <textarea name="feedbackContent"></textarea>
+            <textarea name="feedbackContent" style="width: 500px;height: 200px;"></textarea>
             <button type="submit">御批</button>
         </form>
     </div>
-    <a href="@{/work?method=showMemorialsDigestList}">返回列表</a>
+    <a th:href="@{/work?method=showMemorialsDigestList}">返回列表</a>
 </body>
 </html>

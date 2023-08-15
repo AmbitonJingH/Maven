@@ -9,4 +9,8 @@ public interface MemorialsDao {
     List<Memorials> getAllMemorialsDigest();
 
     Memorials getMemorialsById(String memorialsId);
+
+    void updateMemorialsStatusToRead(String memorialsId);
+
+    void updateMemorialsFeedBack(String memorialsId, String feedbackContent);
 }

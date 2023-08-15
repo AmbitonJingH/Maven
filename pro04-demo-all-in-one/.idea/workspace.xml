@@ -10,42 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4690c43-6ebf-40fd-ab63-dae6e75bbd0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/exception/LoginFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/api/EmpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/api/MemorialsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/impl/EmpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/impl/MemorialsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/module/AuthServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/module/PortalServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/module/WorkServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/memorials_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/temp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/maven/ImperialCourtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/filter/LoginFilter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pro05-demo-all-in-one/pro05-demo-all-in-one.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pro04_demo_all_in_one_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/pro04_demo_all_in_one_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/BaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/EmpDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/EmpDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/MemorialsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/api/MemorialsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/EmpDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/EmpDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/MemorialsDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/dao/impl/MemorialsDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/filter/TransactionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/filter/TransactionFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/pojo/Emp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/entity/Emp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/pojo/Memorials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/entity/Memorials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ModelBaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ModelBaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ViewBaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/base/ViewBaseServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/ImperialCourtConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/ImperialCourtConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/JDBCUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/util/MD5Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/memorials-List.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/maven/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/maven/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/api/MemorialsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/api/MemorialsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/impl/MemorialsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/service/impl/MemorialsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/module/WorkServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/imperial/court/servlet/module/WorkServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/memorials_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/memorials_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -387,11 +361,25 @@
       <workItem from="1692000078451" duration="2822000" />
       <workItem from="1692004461285" duration="153000" />
       <workItem from="1692004621557" duration="302000" />
-      <workItem from="1692025912278" duration="6206000" />
+      <workItem from="1692025912278" duration="6343000" />
+      <workItem from="1692069359831" duration="3733000" />
     </task>
+    <task id="LOCAL-00001" summary="demo(业务功能v1.0)">
+      <option name="closed" value="true" />
+      <created>1692032620816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692032620816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="demo(业务功能v1.0)" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo(业务功能v1.0)" />
   </component>
 </project>
